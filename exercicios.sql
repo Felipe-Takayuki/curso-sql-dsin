@@ -6,3 +6,9 @@ select cdclinome,
        cdclinumero
 from cdcliente
 where cdcliuf='GO';    
+
+-- escrever uma consulta sql que devolva o nome de todos os clientes, cujo nome começe com a letra A
+
+select cdclinome 
+from cdcliente
+where cdclinome like 'A%';
